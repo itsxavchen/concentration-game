@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Aeonik Pro Bold" ;
+    src: url(./font/AeonikProTRIAL-Bold.otf);
+}
+
+* {
+    font-family: "Aeonik Pro Bold";
+}
+
+body {
+    height: 100vh;
+}
+
+.timers-wrapper {
+    height: 30vh;
+    font-size: 64px;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 16px;
+    margin: 0px 64px 0px 0px;
+}
+
+.timer-1 {
+    color: #32ADE6;
+}
+
+.timer-2 {
+    color: #D1371C;
+}
+
+.cards-section {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-wrapper {
+    display: flex;
+    width: 518px;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.card {
+    width: 128px;
+    height: 128px;
+    border-radius: 12px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-front {
+    background-color: #DFDFDF;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.players-section {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.players-wrapper {
+    display: flex;
+    gap: 128px;
+    flex-direction: row;
+}
+
+.player-1-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.player-1 {
+    width: 128px;
+    height: 128px;
+    background-color: #32ADE6;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FCFCFC;
+    font-size: 36px;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    background-color: #818181;
+    border-radius: 100%;
+}
+
+.player-2 {
+    width: 128px;
+    height: 128px;
+    background-color: #D1371C;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FCFCFC;
+    font-size: 36px;
+}
