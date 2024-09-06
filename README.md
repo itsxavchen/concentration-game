@@ -9,7 +9,7 @@ The memory card game starts with all cards displayed face-down on the board. The
 
 A reset button is positioned at the bottom of the screen, allowing the players to restart the game and restore their 15 chances. The players can use this button to reset the game at any time during the game.
 
-[**Click here to play the game**](http://127.0.0.1:5500/index.html)
+[**Click here to play the game**](https://itsxavchen.github.io/concentration-game/)
 
 ### Languages:
 * **HTML**: defines the core structure of the game, including the cards with their front and back sides, the reset button, and the display element that shows the remaining number of chances.
