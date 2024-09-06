@@ -7,7 +7,7 @@
 ### Project Brief
 The memory card game starts with all cards displayed face-down on the board. The players start by selecting a card to reveal its hidden pattern. The goal is to find matching pairs by clicking on a second card. If the patterns on both selected cards match, they remain face-up. However, if the patterns do not match, players lose one of their 10 available chances. Once all 10 chances are used up, the game ends.
 
-A reset button is positioned at the bottom of the screen, allowing the players to restart the game and restore their 15 chances. The players can use this button to reset the game at any time during the game.
+A reset button is positioned at the bottom of the screen, allowing the players to restart the game and restore their 10 chances. The players can use this button to reset the game at any time during the game.
 
 [**Click here to play the game**](https://itsxavchen.github.io/concentration-game/)
 
