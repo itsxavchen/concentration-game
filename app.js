@@ -74,7 +74,6 @@ function reset () {
         randomiseArray(shuffledCards);
         cardsWrapper.innerHTML = '';
         shuffledCards.forEach(function (card) {
-            // card.classList.remove('flip');
             card.addEventListener('click', flipCard);
             cardsWrapper.appendChild(card);
         })
