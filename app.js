@@ -79,10 +79,6 @@ function reset () {
             cardsWrapper.appendChild(card);
         })
     }, 800)
-    // cards.forEach(function (card) {
-    //     card.classList.remove('flip');
-    //     card.addEventListener('click', flipCard);
-    // })
 }
 
 /*----------------------------- Event Listeners -----------------------------*/
