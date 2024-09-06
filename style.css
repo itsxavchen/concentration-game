@@ -3,12 +3,24 @@
     src: url(./font/AeonikProTRIAL-Bold.otf);
 }
 
+@font-face {
+    font-family: "Aeonik Pro Regular" ;
+    src: url(./font/AeonikProTRIAL-Regular.otf);
+}
+
 * {
-    font-family: "Aeonik Pro Bold";
+    font-family: "Aeonik Pro Regular";
 }
 
 body {
     height: 100vh;
+    position: relative;
+}
+
+.spline-logo {
+    position: absolute;
+    top: 0;
+    left: -5%;
 }
 
 .lives-wrapper {
@@ -23,7 +35,8 @@ body {
 }
 
 .lives {
-    color: #32ADE6;
+    margin-top: 64px;
+    color: #414141;
 }
 
 .cards-section {
@@ -81,12 +94,13 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .button {
-    width: 128px;
-    height: 128px;
-    background-color: #32ADE6;
+    width: 160px;
+    height: 160px;
+    background-color: #414141;
     border-radius: 100%;
     display: flex;
     flex-direction: row;
