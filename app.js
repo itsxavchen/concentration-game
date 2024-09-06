@@ -60,8 +60,6 @@ function randomiseArray(arr) {
     }
 }
 
-
-
 function reset () {
     lives = 10;
     livesDisplay.innerHTML = lives;
