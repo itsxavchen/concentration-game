@@ -13,8 +13,43 @@
 
 /*---------------------------- Variables (state) ----------------------------*/
 
+let cardsBoard = ['', '', '', '', '', '', '', '', '', '', '', '']
+let firstClickOnCard = false
+let winner
+let firstCard
+let secondCard
+
 /*------------------------ Cached Element References ------------------------*/
 
+const cards = document.querySelectorAll('.card')
 /*-------------------------------- Functions --------------------------------*/
 
+function flipCard(event) {
+    event.target.parentElement.classList.add('flip');
+
+    if (firstClickOnCard === false) {
+        firstCard = event.target.parentElement;
+        firstClickOnCard = true;
+    } else if (firstClickOnCard === true) {
+        secondCard = event.target.parentElement;
+        firstClickOnCard = false;
+
+        let firstCardImgSrc = firstCard.querySelector('.card-back').src;
+        let secondCardImgSrc = secondCard.querySelector('.card-back').src;
+
+        if (firstCardImgSrc === secondCardImgSrc) {
+            console.log('The images match!');
+            firstCard.removeEventListener('click', flipCard);
+            secondCard.removeEventListener('click', flipCard);
+        } else {
+            console.log('The images do not match.');
+        }
+    }
+}
+
+
 /*----------------------------- Event Listeners -----------------------------*/
+
+cards.forEach(function (card) {
+    card.addEventListener('click', flipCard)
+})
