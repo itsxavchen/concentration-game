@@ -12,8 +12,8 @@ A reset button is positioned at the bottom of the screen, allowing the players t
 [**Click here to play the game**](https://itsxavchen.github.io/concentration-game/)
 
 ### Project Plan:
- * Set up the game state and display the cards face-down.
- * Players begin the game by clicking on a card.  
+* Set up the game state and display the cards face-down.
+* Players begin the game by clicking on a card.  
 * If this is the first card selected, remember this card as the first and reveal the pattern.
 * If this is the second card selected, remember this card as the second and reveal the pattern.
 * If the patterns of the first and second cards are the same, keep both cards face-up.
