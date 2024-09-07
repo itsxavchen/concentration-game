@@ -11,6 +11,17 @@ A reset button is positioned at the bottom of the screen, allowing the players t
 
 [**Click here to play the game**](https://itsxavchen.github.io/concentration-game/)
 
+### Project Plan:
+ * Set up the game state and display the cards face-down.
+ * Players begin the game by clicking on a card.  
+* If this is the first card selected, remember this card as the first and reveal the pattern.
+* If this is the second card selected, remember this card as the second and reveal the pattern.
+* If the patterns of the first and second cards are the same, keep both cards face-up.
+* If the patterns of the first and second cards aren’t the same, hide the patterns of both cards.
+* Reset the game by clicking on the reset button.
+* Set total chances back to 10.
+* Hide all card patterns (flip cards face-down) and place the shuffled cards on the board.
+
 ### Languages:
 * **HTML**: defines the core structure of the game, including the cards with their front and back sides, the reset button, and the display element that shows the remaining number of chances.
 
