@@ -39,6 +39,12 @@ body {
     color: #414141;
 }
 
+.instruction-wrapper {
+    position:absolute ;
+    left: 64px;
+    top: 30%;
+}
+
 .cards-section {
     height: 40vh;
     display: flex;
